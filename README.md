@@ -12,7 +12,7 @@ After pasting the code, press Enter to run the script. All redundant elements wi
 This script does not require any installation. It can be copied and pasted into the browser console on any Twitch stream where you want to remove the specified elements.
 
 ## Testing
-As of March 2023, this script has been tested on Twitch and has been found to remove all redundant elements as expected. However, it's possible that Twitch may change its page structure in the future, which could cause this script to no longer work as intended. If you encounter any issues with the script, please feel free to submit an issue or pull request.
+As of March 2023, this script has been tested on Twitch in Firefox and Chrome and has been found to remove all redundant elements as expected. However, it's possible that Twitch may change its page structure in the future, which could cause this script to no longer work as intended. If you encounter any issues with the script, please feel free to submit an issue or pull request.
 
 ## Contributing
 This project is open source and contributions are welcome. If you have any ideas for improving the script or would like to add additional features, feel free to submit a pull request.
