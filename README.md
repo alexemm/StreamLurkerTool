@@ -1,7 +1,7 @@
 # Stream Lurker Mode
 
 ## Overview
-This is a simple script that deletes specific elements from a Twitch stream when the script is copied into the browser console. Specifically, it removes all elements which take up space and are not related to the stream or the chat itself. This can be useful for users who just want to lurk in the stream and check out the chat without interacting with the streamer or the chat.
+This is a simple script that deletes specific elements from a Twitch stream when the script is copied into the browser console. Specifically, it removes all elements which take up space and are not related to the stream or the chat itself. This can be useful for users who just want to lurk in the stream and check out the chat without interacting with the streamer or the chat. Additionally, this script can be helpful for users who do not want to sign in to Twitch but still want to see the stream and chat without a bloated page (for whatever reasons).
 
 ## Usage
 To use this script, simply copy and paste the [following code](https://github.com/alexemm/StreamLurkerTool/blob/main/lurkerMode.js) (lurkerMode.js) into your browser console. 
