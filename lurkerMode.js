@@ -1,6 +1,8 @@
 // Copy this script into the browser console to delete all not needed elements
 
-let footer = document.getElementById('twilight-sticky-footer-root');
+const elementIdentifiers = [
+    'twilight-sticky-footer-root', // Footer when not signed in
+]
 
 const elementClasses = [
     '.Layout-sc-1xcs6mc-0.bGyiZe.chat-input', // Chat input
@@ -14,13 +16,18 @@ const elementClasses = [
 
 ]
 
+function deleteElementById(identifier) {
+    let element = document.getElementById(identifier);
+    if (element) {
+        element.remove();
+    }
+}
+
 function deleteClass(className) {
     document.querySelectorAll(className).forEach(function(element) {
   element.remove();
 });
 }
 
-if (footer) {
-  footer.remove();
-}
+elementIdentifiers.forEach(deleteElementById)
 elementClasses.forEach(deleteClass)
